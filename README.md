@@ -139,4 +139,4 @@ If you want to delete your Google Photos content after migration:
 
 ## Issues and Support
 
-If you encounter any problems, please [open an issue](https://github.com/yourusername/google-photos-to-icloud/issues) in this repository.
+If you encounter any problems, please [open an issue](https://github.com/divsriv111/google-photos-to-icloud/issues) in this repository.
