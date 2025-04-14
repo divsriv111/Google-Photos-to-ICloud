@@ -32,6 +32,8 @@ Google Photos exports use a "sidecar" pattern with separate JSON files for metad
    - Install the .exe files and extract the .zip folders
    - Add the bin folders to your system PATH environment variable, for these softwares.
 
+![Setup Screenshot](wiki/imgs/env_variables.png "Environment variables setup")
+
 ### Setup
 
 1. Clone/download this repository
@@ -55,6 +57,14 @@ Google Photos exports use a "sidecar" pattern with separate JSON files for metad
    - Keep your original Google Photos export safe as a backup
 
 ### Step 3: Process Your Photos
+
+_Note_: Follow below folder structure to avoid confusion in the commands later. Create them manually.
+
+![Folder structure Screenshot](wiki/imgs/folder_structure.png "Folder structure")
+
+- "output" folder -> going to contain our final processed media files, we will copy all the folders/files (except report.txt) from here to icloud/Photos folder.
+- "Photos" folder -> going to contain all the extracted images from google photo zip dumps.
+- "software" folder -> after downloading all the softwares, paste it here and extract/install here.
 
 Run the following scripts in order:
 
